@@ -11,9 +11,9 @@ El alcance de este servicio sólo llega hasta la proporción de una interfaz par
 Aunque se puede emplear el código fuente para añadir su funcionalidad en una aplicación, es muy recomendable emplear los encapsulados JAR. De esta forma, se consigue una reducción considerable en la gestión y uso ya que puede ser tratada como una biblioteca externa que proporciona una funcionalidad especifica e independiente del resto de recursos.
 También permite tener un mejor control sobre las versiones y reducir sus repercusiones sobre el resto de la lógica.
 
--Lo primero es importar el [fichero JAR](#) al proyecto deseado.
+- Lo primero es importar el [fichero JAR](https://github.com/guiuva/shadow-persistence/releases/download/untagged-848a9ee0f3b9048fbea7/gui_shadow_persistence-1.0.jar) al proyecto deseado.
 
--Una vez importado, el uso es muy sencillo.
+- Una vez importado, el uso es muy sencillo.
 ```
 IPersistenceFacade persistence = new PersistenceFacade();
 UserDTO user = persistence.getUser("admin");
@@ -23,8 +23,8 @@ UserDTO user = persistence.getUser("admin");
 
 En la versión 1.0 solamente están implementados los métodos:
 
-* getUser : especificando un identificador del usuario (login) proporciona un DTO con toda su información relacionada.
-* getTypes : proporciona una lista con todos los posibles tipos de los campos adicionales que pueden ser asociados a un usuario en concreto.
+* `getUser` : especificando un identificador del usuario (login) proporciona un DTO con toda su información relacionada.
+* `getTypes` : proporciona una lista con todos los posibles tipos de los campos adicionales que pueden ser asociados a un usuario en concreto.
 
 
 ### Información adicional ###
