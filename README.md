@@ -11,7 +11,7 @@ El alcance de este servicio sólo llega hasta la proporción de una interfaz par
 Aunque se puede emplear el código fuente para añadir su funcionalidad en una aplicación, es muy recomendable emplear los encapsulados JAR. De esta forma, se consigue una reducción considerable en la gestión y uso ya que puede ser tratada como una biblioteca externa que proporciona una funcionalidad especifica e independiente del resto de recursos.
 También permite tener un mejor control sobre las versiones y reducir sus repercusiones sobre el resto de la lógica.
 
-- Lo primero es importar el [fichero JAR](https://github.com/guiuva/shadow-persistence/releases/download/untagged-848a9ee0f3b9048fbea7/gui_shadow_persistence-1.0.jar) al proyecto deseado.
+- Lo primero es importar el [fichero JAR](https://github.com/guiuva/shadow-persistence/releases/download/v1.0.0/gui_shadow_persistence-1.0.jar) al proyecto deseado.
 
 - Una vez importado, el uso es muy sencillo.
 ```
